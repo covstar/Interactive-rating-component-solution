@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Interactive rating component</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <main>
+
+    <div class="rating">
+      <div class="star"><img src="images/icon-star.svg" alt="images"></div>
+      <h1> How did we do?</h1>
+      <p> Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+        <!-- rating buttons -->
+        <div class="rate">
+          <div><button class="one " value="1">1</button></div>
+          <div> <button class="two" value="2">2</button></div>
+         <div><button class="three" value="3">3</button></div>
+          <div><button class="four" value="4">4</button></div>
+          <div><button class="five" value="5">5</button></div>
+          
+        </div>
+        <div class="submit">
+          <button class="submitButton">SUBMIT</button>
+        </div>
+
+    </div>
+
+  <!-- Rating state end -->
+
+
+  <!-- Thank you state start -->
+    <div class="thank-you">
+      <div class="illustration"><img src="images/illustration-thank-you.svg" alt="thank-you"></div>
+      <div class="out-put">
+        You selected <span class="value"></span> out of 5
+      </div>
+
+      <h1 class="thankU-head">Thank you!</h1>
+      <p class="thankU-para"> We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+
+    </div>
+  
+  <!-- Thank you state end -->
+ </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a> 
+    Coded by <a href="https://www.frontendmentor.io/profile/covstar" target="_blank">Okechukwu Victor Chiedozie.</a>
+  </footer>
+
+
+
+
+  <script src="jquery/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* html syntax */
+*{
+    box-sizing: content-box;
+    margin: 0;
+    font-family: "overpass";
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+main{
+    display: grid;
+    ;
+    grid-template-columns: repeat(1,24rem);
+    justify-content: center;
+    padding-top: 12rem;
+}
+button{
+    cursor: pointer;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: .6rem 0;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    line-height: 1.5;
+}
+footer{
+    text-align: center;
+    font-size: .8rem;
+    padding-top: 3rem;
+    color: hsl(25, 97%, 53%);
+}
+footer a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+footer a:hover{
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* rating section */
+.rating,
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 21rem;
+}
+
+.star img {
+    background-color: hsl(213, 19%, 21%);
+    padding: .8rem;
+    border-radius: 50%;
+}
+/* rating button */
+.rate{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.rate div:nth-child(1) button{
+padding: 1rem 1.35rem .8rem;
+border-radius: 100%;
+}
+
+.rate button{
+    padding: 1rem 1.2rem .8rem;
+    text-align: justify;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 21%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.rate button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.rate button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+/* submit button */
+ .submit{
+    text-align: center;
+}
+.submitButton{
+   font-size: .99rem;
+   padding: 1rem 0 .7rem;
+   letter-spacing: 1.5px;
+   width: 100%;
+   font-weight: 600;
+   text-align: center;
+   border-radius: 10rem;
+   border: none;
+   background-color: hsl(25, 97%, 53%);
+   color: hsl(0, 0%, 100%);
+}
+.submitButton:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* thank you section */
+.thank-you{
+    display: none;
+    text-align: center;
+}
+
+/* output section */
+.out-put{
+    background-color: hsl(213, 19%, 21%);
+    padding: .6rem;
+    border-radius: 10rem;
+    font-size: .9rem;
+    width: 50%;
+    margin: 1.2rem auto;
+    color: hsl(25, 97%, 53%);
+    font-weight: 500;
+}
